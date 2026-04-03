@@ -1,0 +1,20 @@
+/tmp/ipykernel_1286527/2614793993.py:36: DeprecationWarning: `np.math` is a deprecated alias for the standard library `math` module (Deprecated Numpy 1.25). Replace usages of `np.math` with `math`
+  return np.math.ceil(len(self.image_path) / self.batch_size)
+Epoch 1/20
+2026-03-29 14:24:53.809039: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8907
+215/215 [==============================] - 248s 1s/step - loss: 0.4497 - accuracy: 0.7903 - val_loss: 0.4337 - val_accuracy: 0.8255
+Epoch 2/20
+215/215 [==============================] - 247s 1s/step - loss: 0.3480 - accuracy: 0.8456 - val_loss: 0.5169 - val_accuracy: 0.7837
+Epoch 3/20
+215/215 [==============================] - 254s 1s/step - loss: 0.3215 - accuracy: 0.8555 - val_loss: 0.3468 - val_accuracy: 0.8567
+Epoch 4/20
+215/215 [==============================] - 246s 1s/step - loss: 0.2868 - accuracy: 0.8762 - val_loss: 0.3909 - val_accuracy: 0.8178
+Epoch 5/20
+215/215 [==============================] - 253s 1s/step - loss: 0.2634 - accuracy: 0.8864 - val_loss: 0.4289 - val_accuracy: 0.8295
+Epoch 6/20
+215/215 [==============================] - 244s 1s/step - loss: 0.2503 - accuracy: 0.8921 - val_loss: 0.3498 - val_accuracy: 0.8592
+Epoch 7/20
+215/215 [==============================] - 250s 1s/step - loss: 0.2331 - accuracy: 0.9027 - val_loss: 0.3902 - val_accuracy: 0.8377
+Epoch 8/20
+215/215 [==============================] - 251s 1s/step - loss: 0.2206 - accuracy: 0.9030 - val_loss: 0.3612 - val_accuracy: 0.8600
+Full model saved at saved_model/xception_full.keras

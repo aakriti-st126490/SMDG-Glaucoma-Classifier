@@ -1,0 +1,69 @@
+2026-03-29 14:24:44,111 INFO    MainThread:1286527 [wandb_setup.py:_flush():81] Current SDK version is 0.25.0
+2026-03-29 14:24:44,111 INFO    MainThread:1286527 [wandb_setup.py:_flush():81] Configure stats pid to 1286527
+2026-03-29 14:24:44,111 INFO    MainThread:1286527 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-03-29 14:24:44,112 INFO    MainThread:1286527 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /home/jupyter-st126490-ml/p1/SMDG-Classifier/SMDG-Classifier/wandb/run-20260329_142444-0x001/logs/debug.log
+2026-03-29 14:24:44,112 INFO    MainThread:1286527 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /home/jupyter-st126490-ml/p1/SMDG-Classifier/SMDG-Classifier/wandb/run-20260329_142444-0x001/logs/debug-internal.log
+2026-03-29 14:24:44,112 INFO    MainThread:1286527 [wandb_init.py:monkeypatch_ipython():636] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7aa1401cf460>
+2026-03-29 14:24:44,112 INFO    MainThread:1286527 [wandb_init.py:init():844] calling init triggers
+2026-03-29 14:24:44,112 INFO    MainThread:1286527 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'Dataset': 'Glaucoma', 'Models': 'Xception', 'learning_rate': 0.001, 'beta1': 0.9, 'metrics': ['accuracy'], '_wandb': {}}
+2026-03-29 14:24:44,113 INFO    MainThread:1286527 [wandb_init.py:init():892] starting backend
+2026-03-29 14:24:44,354 INFO    MainThread:1286527 [wandb_init.py:init():895] sending inform_init request
+2026-03-29 14:24:44,360 INFO    MainThread:1286527 [wandb_init.py:init():903] backend started and connected
+2026-03-29 14:24:44,398 INFO    MainThread:1286527 [wandb_run.py:_label_probe_notebook():1333] probe notebook
+2026-03-29 14:24:44,398 INFO    MainThread:1286527 [wandb_run.py:_label_probe_notebook():1343] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2026-03-29 14:24:44,399 INFO    MainThread:1286527 [wandb_init.py:init():973] updated telemetry
+2026-03-29 14:24:44,485 INFO    MainThread:1286527 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-03-29 14:24:45,308 INFO    MainThread:1286527 [wandb_init.py:init():1042] starting run threads in backend
+2026-03-29 14:24:45,490 INFO    MainThread:1286527 [wandb_run.py:_console_start():2524] atexit reg
+2026-03-29 14:24:45,490 INFO    MainThread:1286527 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-03-29 14:24:45,490 INFO    MainThread:1286527 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-03-29 14:24:45,490 INFO    MainThread:1286527 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-03-29 14:24:45,495 INFO    MainThread:1286527 [wandb_init.py:init():1082] run started, returning control to user process
+2026-03-29 14:24:45,497 INFO    MainThread:1286527 [wandb_init.py:_post_run_cell_hook():606] [no run ID] resuming backend
+2026-03-29 14:24:45,507 INFO    MainThread:1286527 [jupyter.py:save_ipynb():362] [no run ID] not saving jupyter notebook
+2026-03-29 14:24:45,507 INFO    MainThread:1286527 [wandb_init.py:_pre_run_cell_hook():595] [no run ID] pausing backend
+2026-03-29 14:24:45,511 INFO    MainThread:1286527 [wandb_init.py:_post_run_cell_hook():606] [no run ID] resuming backend
+2026-03-29 14:24:45,519 INFO    MainThread:1286527 [jupyter.py:save_ipynb():362] [no run ID] not saving jupyter notebook
+2026-03-29 14:24:45,521 INFO    MainThread:1286527 [wandb_init.py:_pre_run_cell_hook():595] [no run ID] pausing backend
+2026-03-29 14:24:45,541 INFO    MainThread:1286527 [wandb_init.py:_post_run_cell_hook():606] [no run ID] resuming backend
+2026-03-29 14:24:45,548 INFO    MainThread:1286527 [jupyter.py:save_ipynb():362] [no run ID] not saving jupyter notebook
+2026-03-29 14:24:45,548 INFO    MainThread:1286527 [wandb_init.py:_pre_run_cell_hook():595] [no run ID] pausing backend
+2026-03-29 14:24:47,387 INFO    MainThread:1286527 [wandb_init.py:_post_run_cell_hook():606] [no run ID] resuming backend
+2026-03-29 14:24:47,392 INFO    MainThread:1286527 [jupyter.py:save_ipynb():362] [no run ID] not saving jupyter notebook
+2026-03-29 14:24:47,392 INFO    MainThread:1286527 [wandb_init.py:_pre_run_cell_hook():595] [no run ID] pausing backend
+2026-03-29 14:58:02,777 INFO    MainThread:1286527 [wandb_init.py:_post_run_cell_hook():606] [no run ID] resuming backend
+2026-03-29 14:58:27,514 INFO    wandb-AsyncioManager-main:1286527 [service_client.py:_forward_responses():134] Reached EOF.
+2026-03-29 14:58:27,520 INFO    wandb-AsyncioManager-main:1286527 [mailbox.py:close():155] Closing mailbox, abandoning 1 handles.
+2026-03-29 14:58:29,399 ERROR   wandb-AsyncioManager-main:1286527 [asyncio_manager.py:fn_wrap_exceptions():184] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/home/jupyter-st126490-ml/.conda/envs/smdg_gpu/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_manager.py", line 182, in fn_wrap_exceptions
+    await fn()
+  File "/home/jupyter-st126490-ml/.conda/envs/smdg_gpu/lib/python3.10/site-packages/wandb/sdk/lib/service/service_client.py", line 45, in publish
+    await self._send_server_request(request)
+  File "/home/jupyter-st126490-ml/.conda/envs/smdg_gpu/lib/python3.10/site-packages/wandb/sdk/lib/service/service_client.py", line 87, in _send_server_request
+    await self._drain_writer()
+  File "/home/jupyter-st126490-ml/.conda/envs/smdg_gpu/lib/python3.10/site-packages/wandb/sdk/lib/service/service_client.py", line 96, in _drain_writer
+    await self._writer.drain()
+  File "/home/jupyter-st126490-ml/.conda/envs/smdg_gpu/lib/python3.10/asyncio/streams.py", line 371, in drain
+    await self._protocol._drain_helper()
+  File "/home/jupyter-st126490-ml/.conda/envs/smdg_gpu/lib/python3.10/asyncio/streams.py", line 167, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2026-03-29 14:58:29,402 ERROR   wandb-AsyncioManager-main:1286527 [asyncio_manager.py:fn_wrap_exceptions():184] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/home/jupyter-st126490-ml/.conda/envs/smdg_gpu/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_manager.py", line 182, in fn_wrap_exceptions
+    await fn()
+  File "/home/jupyter-st126490-ml/.conda/envs/smdg_gpu/lib/python3.10/site-packages/wandb/sdk/lib/service/service_client.py", line 45, in publish
+    await self._send_server_request(request)
+  File "/home/jupyter-st126490-ml/.conda/envs/smdg_gpu/lib/python3.10/site-packages/wandb/sdk/lib/service/service_client.py", line 78, in _send_server_request
+    raise self._broken_exc.with_traceback(self._broken_tb)
+  File "/home/jupyter-st126490-ml/.conda/envs/smdg_gpu/lib/python3.10/site-packages/wandb/sdk/lib/service/service_client.py", line 87, in _send_server_request
+    await self._drain_writer()
+  File "/home/jupyter-st126490-ml/.conda/envs/smdg_gpu/lib/python3.10/site-packages/wandb/sdk/lib/service/service_client.py", line 96, in _drain_writer
+    await self._writer.drain()
+  File "/home/jupyter-st126490-ml/.conda/envs/smdg_gpu/lib/python3.10/asyncio/streams.py", line 371, in drain
+    await self._protocol._drain_helper()
+  File "/home/jupyter-st126490-ml/.conda/envs/smdg_gpu/lib/python3.10/asyncio/streams.py", line 167, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost

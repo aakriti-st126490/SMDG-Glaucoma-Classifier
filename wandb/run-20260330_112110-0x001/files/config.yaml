@@ -1,0 +1,95 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            qscj452fug3ihuwy3aylnad2fbrjec5i:
+                cpu_count: 16
+                cpu_count_logical: 32
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "940534845440"
+                        used: "23615332352"
+                email: st126490@ait.asia
+                executable: /home/jupyter-st126490-ml/.conda/envs/smdg_gpu/bin/python
+                git:
+                    commit: 2f3f673eb82231790df9f4f5488c389c8bcebc41
+                    remote: git@github.com:aakriti-st126490/SMDG-Glaucoma-Classifier.git
+                gpu: NVIDIA GeForce RTX 2080 Ti
+                gpu_count: 4
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-bff1b332-26c8-782c-f9dd-3ec6f9a0940c
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-81de9a68-d774-442f-89b7-19e5cbe89d95
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-150e736b-3967-ee62-2639-eedd771b51e1
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-cd552436-234a-7394-4ca8-b13e0dc048e4
+                host: puffer
+                memory:
+                    total: "270334377984"
+                os: Linux-6.8.0-51-generic-x86_64-with-glibc2.39
+                program: <python with no main file>
+                python: CPython 3.10.19
+                root: /home/jupyter-st126490-ml/p1/SMDG-Classifier/SMDG-Classifier
+                startedAt: "2026-03-30T11:21:10.849628Z"
+                writerId: qscj452fug3ihuwy3aylnad2fbrjec5i
+        m:
+            - "1": batch/batch_step
+              "6":
+                - 3
+              "7": []
+            - "2": batch/*
+              "5": 1
+              "6":
+                - 1
+              "7": []
+        python_version: 3.10.19
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 7
+                - 13
+                - 14
+                - 16
+                - 38
+            "4": 3.10.19
+            "5": 0.25.0
+            "8":
+                - 1
+            "12": 0.25.0
+            "13": linux-x86_64
+Dataset:
+    value: Glaucoma
+Models:
+    value: Xception
+beta1:
+    value: 0.9
+learning_rate:
+    value: 0.001
+metrics:
+    value:
+        - accuracy

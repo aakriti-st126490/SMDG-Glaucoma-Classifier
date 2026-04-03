@@ -1,0 +1,12 @@
+{
+    "model_name": "resnet",
+    "input_size": [
+        224,
+        224
+    ],
+    "classes": [
+        "Normal",
+        "Glaucoma"
+    ],
+    "threshold": 0.5
+}

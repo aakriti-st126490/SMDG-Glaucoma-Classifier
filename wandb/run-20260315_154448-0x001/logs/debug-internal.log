@@ -1,0 +1,17 @@
+{"time":"2026-03-15T15:44:48.471263138Z","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-15T15:44:48.942168476Z","level":"INFO","msg":"stream: created new stream","id":"0x001"}
+{"time":"2026-03-15T15:44:48.942312604Z","level":"INFO","msg":"handler: started","stream_id":"0x001"}
+{"time":"2026-03-15T15:44:48.942649095Z","level":"INFO","msg":"stream: started","id":"0x001"}
+{"time":"2026-03-15T15:44:48.942755068Z","level":"INFO","msg":"writer: started","stream_id":"0x001"}
+{"time":"2026-03-15T15:44:48.942756944Z","level":"INFO","msg":"sender: started","stream_id":"0x001"}
+{"time":"2026-03-15T15:44:49.29101976Z","level":"ERROR","msg":"runupserter: failed to init run","error":"no data but must resume"}
+{"time":"2026-03-15T15:47:06.065218153Z","level":"ERROR","msg":"runupserter: failed to init run","error":"no data but must resume"}
+{"time":"2026-03-15T15:48:15.601206757Z","level":"ERROR","msg":"runupserter: failed to init run","error":"no data but must resume"}
+{"time":"2026-03-15T15:48:29.630162437Z","level":"INFO","msg":"stream: closing","id":"0x001"}
+{"time":"2026-03-15T15:48:29.630888583Z","level":"ERROR","msg":"sender: uploadConfigFile: runhandle: run not yet initialized"}
+{"time":"2026-03-15T15:48:29.632096622Z","level":"ERROR","msg":"runfiles: runhandle: run not yet initialized"}
+{"time":"2026-03-15T15:48:29.632965947Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-15T15:48:29.633022272Z","level":"INFO","msg":"handler: closed","stream_id":"0x001"}
+{"time":"2026-03-15T15:48:29.633096557Z","level":"INFO","msg":"sender: closed","stream_id":"0x001"}
+{"time":"2026-03-15T15:48:29.633111263Z","level":"INFO","msg":"stream: closed","id":"0x001"}
+{"time":"2026-03-15T15:48:29.642605169Z","level":"ERROR","msg":"stream: runURL: runhandle: run not yet initialized"}

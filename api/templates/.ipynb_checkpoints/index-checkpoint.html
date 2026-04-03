@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Glaucoma Detection</title>
+</head>
+<body>
+
+<h2>🧠 Glaucoma Detection with Explainability</h2>
+
+<form action="/predict_ui" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" required>
+    <button type="submit">Predict</button>
+</form>
+
+{% if results %}
+    <h3>Results:</h3>
+    {% for model, res in results.items() %}
+        <h4>{{ model }}</h4>
+        <p>Prediction: {{ res.prediction }}</p>
+        <p>Confidence: {{ res.confidence }}</p>
+    {% endfor %}
+{% endif %}
+
+</body>
+</html>
